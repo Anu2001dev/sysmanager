@@ -1,0 +1,5 @@
+#!/usr/bin/sh
+APPDIR="$(pwd)"
+python src/reminders.py </dev/null &> /dev/null &
+disown
+
